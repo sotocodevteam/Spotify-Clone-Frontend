@@ -1,0 +1,14 @@
+.socialauthContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 324px;
+  gap: 8px 0px;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .socialauthContainer {
+    width: 100%;
+  }
+}

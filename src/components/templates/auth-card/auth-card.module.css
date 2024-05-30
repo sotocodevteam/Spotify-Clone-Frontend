@@ -1,0 +1,25 @@
+.authCardContainer {
+  background-color: var(--background-base);
+  color: white;
+  row-gap: normal;
+  border-radius: 8px;
+  padding: 32px 0px;
+  width: 100%;
+  max-width: 734px;
+}
+
+.title {
+  text-align: center;
+  margin: 48px 0px;
+}
+
+@media (max-width: 767px) {
+  .title {
+    margin: 0px 0px 32px;
+    text-align: left;
+  }
+
+  .authCardContainer {
+    padding: 0px;
+  }
+}

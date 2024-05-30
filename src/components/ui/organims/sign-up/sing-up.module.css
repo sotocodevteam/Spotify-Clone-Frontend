@@ -1,0 +1,23 @@
+.singUp {
+  padding: 16px 0px;
+  font-family: CircularSp-Book;
+  text-align: center;
+  color: #878787;
+  gap: 4px 0px;
+  font-weight: 400;
+
+  & span {
+    font-family: inherit;
+    margin-right: 8px;
+  }
+}
+
+.singUp a {
+  text-decoration: underline 2px;
+  color: #fff;
+  font-family: inherit;
+
+  &:hover {
+    color: var(--primary);
+  }
+}
