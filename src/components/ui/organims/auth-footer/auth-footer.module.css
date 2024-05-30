@@ -1,0 +1,19 @@
+.authFooter {
+  color: rgb(167, 167, 167);
+  text-align: center;
+  padding: 32px;
+  width: 100%;
+}
+
+.footerContent {
+  margin-block: 0px;
+  color: inherit;
+  font-size: 12px;
+  font-family: CircularSp-Book;
+  font-weight: 400;
+
+  & a {
+    color: inherit;
+    font-family: CircularSp-Book;
+  }
+}

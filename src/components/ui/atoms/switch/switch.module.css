@@ -1,0 +1,65 @@
+.switchInput {
+  clip: rect(0, 0, 0, 0);
+  border-width: 0;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.switchLabel {
+  position: relative;
+  display: flex;
+}
+
+.switch {
+  border-radius: 11px;
+  block-size: 16px;
+  min-inline-size: 30px;
+  position: relative;
+}
+
+.switch::after {
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  transition: border-color 200ms ease-in 0s;
+  box-sizing: border-box;
+  inline-size: calc(100% + 12px);
+  block-size: calc(100% + 12px);
+  top: -6px;
+  left: -6px;
+  background: transparent;
+  border-radius: 14px;
+  border: 3px solid transparent;
+  content: "";
+}
+
+.switchInput:not(:checked) + .switch {
+  background-color: #878787;
+}
+
+.switchInput:checked + .switch {
+  background-color: var(--primary);
+}
+
+.indicator {
+  background: var(--background-base, #ffffff);
+  border-radius: inherit;
+  block-size: 12px;
+  position: absolute;
+  top: 2px;
+  inline-size: 12px;
+  transition: all 1s ease 0s;
+}
+
+input.switchInput:checked + .switch .indicator {
+  right: 2px;
+}
+
+input.switchInput:not(:checked) + .switch .indicator {
+  left: 2px;
+}
