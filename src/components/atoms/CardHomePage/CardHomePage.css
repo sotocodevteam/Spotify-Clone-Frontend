@@ -1,0 +1,31 @@
+.imgCard{
+    width: 45%;
+    border-radius: 4px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    object-position: center;
+    transform: rotate(25deg) translate(18%,-2%)
+}
+.cardface{
+    border-radius: 8px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    
+    /* background-image: url(../../../assets/img/10.jpg); */
+}
+
+.cardContentTitle{
+    font-weight: 700;
+    hyphens: auto;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    padding: 16px;
+    position: absolute;
+    -webkit-padding-end: 30%;
+    padding-inline-end: 30%;
+}
