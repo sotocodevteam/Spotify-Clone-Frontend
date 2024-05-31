@@ -1,0 +1,12 @@
+@import url("https://cdn.statically.io/gist/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/fad2f254369fb54250260077a4c87391a6280c52/gotham.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "GothamPro";
+}
+
+body {
+    background-color: #000;
+}
