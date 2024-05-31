@@ -1,12 +1,8 @@
-import HeaderColumnLeft from './UI/organisms/HeaderColumnLeft/HeaderColumnLeft';
+import Main from './pages/Main/Main';
 import './global/global.css';
 
 function App() {
-  return (
-    <>
-      <HeaderColumnLeft />
-    </>
-  )
+  return <Main />
 }
 
 export default App;
