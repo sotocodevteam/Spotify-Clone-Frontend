@@ -16,16 +16,19 @@
     width: 100%;
     padding: 10px;
     
-    /* background-image: url(../../../assets/img/10.jpg); */
 }
 
 .cardContentTitle{
     font-weight: 700;
     hyphens: auto;
     max-width: 100%;
+    font-size: 18px;
     overflow-wrap: break-word;
     padding: 16px;
     position: absolute;
     -webkit-padding-end: 30%;
     padding-inline-end: 30%;
+    @media (min-width:350px) {
+        font-size: 20px;
+    }
 }
