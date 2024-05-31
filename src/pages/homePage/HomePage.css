@@ -1,0 +1,119 @@
+#header{
+    contain: content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 64px;
+    position: absolute;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: aqua;
+
+}
+#headerContent{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    /* padding: 1rem; */
+}
+.buttonBack{
+    background-color: rgba(0, 0, 0, .7);
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 32px;
+    width: 32px;
+    outline: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.buttonRegister{
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: transparent;
+    border: 0; 
+    border-radius:500px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    color:  #6a6a6a;
+    min-inline-size: 0px;
+    min-block-size: var(--encore-control-size-base, 48px);
+    padding-block-start: var(--encore-spacing-tighter-2, 8px);
+    padding-block-end: var(--encore-spacing-tighter-2, 8px);
+    padding-inline-start: var(--encore-spacing-looser-2, 32px);
+    padding-inline-end: var(--encore-spacing-looser-2, 32px);
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.buttonLogin{
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    background-color: var(--background-base, #ffffff);
+    color: var(--text-base, #000000);
+    display: flex;
+    border: none;
+    border-radius: var(--encore-button-corner-radius, 9999px);
+    font-size: inherit;
+    min-block-size: var(--encore-control-size-base, 48px);
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-block-start: var(--encore-spacing-tighter-2, 8px);
+    padding-block-end: var(--encore-spacing-tighter-2, 8px);
+    padding-inline-start: var(--encore-spacing-looser-2, 32px);
+    padding-inline-end: var(--encore-spacing-looser-2, 32px);
+}
+.dialogContent{
+    /* display: flex;
+    align-items: center; */
+    font-size: 18px;
+    width: fit-content;
+    color: #fff;
+    @media (min-width:350px) {
+        font-size: 20px;
+    }
+}
+.spanLogin{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-weight:600;
+
+    color: #000000;
+}
