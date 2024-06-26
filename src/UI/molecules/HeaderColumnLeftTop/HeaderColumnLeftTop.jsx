@@ -1,9 +1,9 @@
-import LinkButton from "../../atoms/LinkButton/LinkButton";
-import Paragraph from "../../atoms/Paragraph/Paragraph";
-import Icon from "../../atoms/Icon/Icon";
-import Container from "../../atoms/Container/Container";
+import LinkButton from '../../atoms/LinkButton/LinkButton';
+import Paragraph from '../../atoms/Paragraph/Paragraph';
+import Icon from '../../atoms/Icon/Icon';
+import Container from '../../atoms/Container/Container';
 
-import styles from "./HeaderColumnLeftTop.module.css";
+import styles from './HeaderColumnLeftTop.module.css';
 
 const HeaderColumnLeftTop = () => {
   return (

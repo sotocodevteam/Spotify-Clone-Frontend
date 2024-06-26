@@ -1,7 +1,7 @@
-import MainTemplate from "../../templates/Main/Main";
+import MainTemplate from '../../templates/Main/Main';
 
 const Main = () => {
-    return <MainTemplate />;
+  return <MainTemplate />;
 };
 
 export default Main;

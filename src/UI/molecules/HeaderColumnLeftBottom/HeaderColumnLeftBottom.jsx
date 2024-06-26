@@ -1,10 +1,10 @@
 import LinkButton from '../../atoms/LinkButton/LinkButton';
-import Button from "../../atoms/Button/Button";
-import Paragraph from "../../atoms/Paragraph/Paragraph";
-import Icon from "../../atoms/Icon/Icon";
-import Container from "../../atoms/Container/Container";
-import Subtitle from "../../atoms/Subtitle/Subtitle";
-import styles from "./HeaderColumnLeftBottom.module.css";
+import Button from '../../atoms/Button/Button';
+import Paragraph from '../../atoms/Paragraph/Paragraph';
+import Icon from '../../atoms/Icon/Icon';
+import Container from '../../atoms/Container/Container';
+import Subtitle from '../../atoms/Subtitle/Subtitle';
+import styles from './HeaderColumnLeftBottom.module.css';
 
 const HeaderColumnLeftBottom = () => {
   return (
@@ -67,18 +67,59 @@ const HeaderColumnLeftBottom = () => {
 
       <section className={styles.HeaderColumnLeftBottom__LegalContainer}>
         <div className={styles.HeaderColumnLeftBottom__Legal}>
-          <LinkButton to="/" customClass={styles.HeaderColumnLeftBottom__Legal_Link}>Legal</LinkButton>
-          <LinkButton to="/" customClass={styles.HeaderColumnLeftBottom__Legal_Link}>Safety & Privacy Center</LinkButton>
-          <LinkButton to="/" customClass={styles.HeaderColumnLeftBottom__Legal_Link}>Privacy Policy</LinkButton>
-          <LinkButton to="/" customClass={styles.HeaderColumnLeftBottom__Legal_Link}>Cookies</LinkButton>
-          <LinkButton to="/" customClass={styles.HeaderColumnLeftBottom__Legal_Link}>About Ads</LinkButton>
-          <LinkButton to="/" customClass={styles.HeaderColumnLeftBottom__Legal_Link}>Accessibility</LinkButton>
-          <LinkButton to="/" customClass={styles.HeaderColumnLeftBottom__Legal_Link}>Cookies</LinkButton>
+          <LinkButton
+            to="/"
+            customClass={styles.HeaderColumnLeftBottom__Legal_Link}
+          >
+            Legal
+          </LinkButton>
+          <LinkButton
+            to="/"
+            customClass={styles.HeaderColumnLeftBottom__Legal_Link}
+          >
+            Safety & Privacy Center
+          </LinkButton>
+          <LinkButton
+            to="/"
+            customClass={styles.HeaderColumnLeftBottom__Legal_Link}
+          >
+            Privacy Policy
+          </LinkButton>
+          <LinkButton
+            to="/"
+            customClass={styles.HeaderColumnLeftBottom__Legal_Link}
+          >
+            Cookies
+          </LinkButton>
+          <LinkButton
+            to="/"
+            customClass={styles.HeaderColumnLeftBottom__Legal_Link}
+          >
+            About Ads
+          </LinkButton>
+          <LinkButton
+            to="/"
+            customClass={styles.HeaderColumnLeftBottom__Legal_Link}
+          >
+            Accessibility
+          </LinkButton>
+          <LinkButton
+            to="/"
+            customClass={styles.HeaderColumnLeftBottom__Legal_Link}
+          >
+            Cookies
+          </LinkButton>
         </div>
 
         <Button customClass={styles.HeaderColumnLeftBottom__LanguageButton}>
-          <Icon path="/globe.svg" customClass={styles.HeaderColumnLeftBottom__LanguageButton_Icon} />
-          <Paragraph text="English" customClass={styles.HeaderColumnLeftBottom__LanguageButton_Text} />
+          <Icon
+            path="/globe.svg"
+            customClass={styles.HeaderColumnLeftBottom__LanguageButton_Icon}
+          />
+          <Paragraph
+            text="English"
+            customClass={styles.HeaderColumnLeftBottom__LanguageButton_Text}
+          />
         </Button>
       </section>
     </Container>

@@ -1,8 +1,8 @@
 .Button {
-    outline: none;
-    border: none;
-    background-color: transparent;
-    color: #a7a7a7;
-    font-weight: 700;
-    cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #a7a7a7;
+  font-weight: 700;
+  cursor: pointer;
 }

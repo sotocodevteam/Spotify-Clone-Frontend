@@ -1,6 +1,6 @@
-import HeaderColumnLeftTop from "../../molecules/HeaderColumnLeftTop/HeaderColumnLeftTop";
-import HeaderColumnLeftBottom from "../../molecules/HeaderColumnLeftBottom/HeaderColumnLeftBottom";
-import styles from "./HeaderColumnLeft.module.css";
+import HeaderColumnLeftTop from '../../molecules/HeaderColumnLeftTop/HeaderColumnLeftTop';
+import HeaderColumnLeftBottom from '../../molecules/HeaderColumnLeftBottom/HeaderColumnLeftBottom';
+import styles from './HeaderColumnLeft.module.css';
 
 const HeaderColumnLeft = () => {
   return (

@@ -1,4 +1,4 @@
-import HeaderColumnLeft from "../../organisms/HeaderColumnLeft/HeaderColumnLeft";
+import HeaderColumnLeft from '../../organisms/HeaderColumnLeft/HeaderColumnLeft';
 
 const MainTemplate = () => {
   return (

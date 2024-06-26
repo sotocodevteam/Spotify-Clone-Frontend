@@ -17,5 +17,16 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    semi: ['error', 'always'],
+    quotes: ['error', 'single'],
+    curly: ['error', 'all'],
+    camelcase: ['error', { properties: 'always' }],
+    'object-curly-spacing': ['error', 'always'],
+    'array-bracket-spacing': ['error', 'never'],
+    'computed-property-spacing': ['error', 'always'],
+    'no-duplicate-imports': ['error', { includeExports: true }],
+    'no-unused-vars': 'error',
+    'react/prop-types': 'off',
+    'react-hooks/exhaustive-deps': 'off',
   },
-}
+};
