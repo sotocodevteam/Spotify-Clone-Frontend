@@ -1,0 +1,23 @@
+.cont-b svg {
+    width: 20px;
+    height: auto;
+    margin-right: 0.35rem;
+    margin-bottom: 0.3rem;
+}
+.cont-a {
+    display: flex;
+    color: #b3b3b3;
+}
+.cont-b {
+    display: flex;
+    color: #b3b3b3;
+}
+.cont-a span {
+    margin-top: 15px;
+    margin-right: 0.5rem;
+}
+.container {
+    background-color: #1c006a;
+    padding: 1.2rem;
+    border-radius: 20px;
+}

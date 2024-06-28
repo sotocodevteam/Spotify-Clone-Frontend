@@ -1,0 +1,9 @@
+.left {
+  width: 350px;
+  position: fixed;
+  background: #030303;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+}
